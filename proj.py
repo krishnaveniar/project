@@ -22,7 +22,7 @@ def game(word):
     print("Let's play Hangman!")
     print(dashes)
     letter = input("Guess a letter")
-    while t>0:
+    while tries>0:
 
         if len(letter)==1 and letter.isalpha():
             if letter not in word:
