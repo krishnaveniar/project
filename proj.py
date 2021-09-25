@@ -4,11 +4,6 @@ rand_words = ['colorful','comb','neighborly','dangerous','arm','quixotic','super
 def main():
     word= get_word(rand_words)
     game(word)
-    
-
-
-
-
 
 def get_word(rand_words):
     word= random.choice(rand_words)
