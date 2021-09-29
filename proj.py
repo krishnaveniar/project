@@ -172,7 +172,6 @@ def game(word):
                 print (pics[picno])
                 tries -=1
             elif letter in used_letters:
-                used_letters.append(letter)
                 print("You already guessed this letter. Guessed letters are",' '.join(used_letters))
             else :
                 print(letter, "is in the word, Nice Try!")
