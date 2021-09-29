@@ -110,7 +110,30 @@ def hangedman():
                    """]
     return HANGMAN_PICS
 rand_words = ['colorful','comb','neighborly','dangerous','arm','quixotic','superb','omniscient','whine','broken','valuable','fat','examine',
-'canvas','applaud',]
+'canvas','applaud','earthquake','waves','inject','hateful','lowly','promise','health','sugar','bone','psychotic','selection','jewel','jobless',
+'infamous','wooden','carriage','allow','fluffy','opposite','acoustic','consist','elegant','soft','bed','type','swanky','place','develop',
+'idea','train','raise','squeal','roof','moan','terrify','check','drown','mind','bedroom','sour','honorable','serious','disturbed','brake',
+'messy','wretched','nail','famous','obsequious','nod','example','new','laugh','stormy','steadfast','name','friends','ill-fated','week','nasty',
+'cannon','squash','expand','offbeat','rose','rainstorm','destruction','cut','heartbreaking','obedient','crowd','babies','grain','recess',
+'reminiscent','pinch','manage','fresh','suspend','hate','veil','grotesque','pat','pass','ablaze','sound','plant','clover','smash','marry',
+'spy','natural','ship','extra-large','forgetful','distinct','like','pen','hapless','enter','luxuriant','nappy','prickly','supreme','chew',
+'wreck','improve','nimble','income','tooth','birthday','bumpy','familiar','nifty','stupid','keen','full','two','grateful','describe','snore',
+'woebegone',
+'ceaseless',
+'concern',
+'order',
+'gaudy',
+'file',
+'eminent',
+'elfin',
+'mass',
+'dreary',
+'heady',
+'object',
+'trashy',
+'breathe',
+'ragged',
+'bawdy']
 def main():
     word= get_word(rand_words)
     game(word)
